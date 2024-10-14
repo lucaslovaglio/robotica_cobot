@@ -1,0 +1,11 @@
+pytesseract~=0.3.7
+opencv-python
+numpy
+SpeechRecognition
+streamlit
+watchdog
+flask
+flask-cors
+matplotlib
+scipy
+pyaudio
