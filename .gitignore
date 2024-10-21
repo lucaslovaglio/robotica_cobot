@@ -5,10 +5,18 @@
 # Exclude Python cache files
 __pycache__/
 
-# Exclude PyCharm project files
+# Exclude ide project files
 .idea/
 *.iml
+.vscode
 
 # Exclude other project-specific files
 OCR_for_files.py
 images/
+
+#envvironment variables
+.env
+.env.*
+!.env.example
+
+/env
