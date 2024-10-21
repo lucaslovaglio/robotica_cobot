@@ -1,6 +1,6 @@
 import socket
 from typing import List, Optional
-from Coordinates import Coordinates
+from .Coordinates import Coordinates
 
 class CobotService:
     def __init__(self, host: str, port: int, acceleration: float, speed: float) -> None:
