@@ -1,3 +1,5 @@
+from typing import Tuple
+
 class Coordinates:
     def __init__(self, x: float, y: float, z: float, rx: float, ry: float, rz: float) -> None:
         self.x = x
