@@ -30,6 +30,6 @@ class CobotService:
         self.cobotSocket.send(command.encode('utf-8'))
         print(f"Command sent: {command}")
 
-    def _validate_coordinates_object(coordinates):
+    def _validate_coordinates_object(self, coordinates):
         if not isinstance(coordinates, Coordinates):
             raise TypeError(f"Expected coordinates to be an instance of Coordinates, got {type(coordinates).__name__}")
